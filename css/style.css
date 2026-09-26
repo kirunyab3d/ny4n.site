@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "JMH Typewriter Mono";
+    src: url("fonts/JMH Typewriter Mono.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: rgb(145, 145, 145);
+    font-family: "JMH Typewriter Mono", monospace;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px   0;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}   
+
+.navbar a {
+    color:inherit;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-transform: ease-in-out 0.2s;
+}
+
+.navbar a.active {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-transform: ease-in-out 0.2s;
+}
